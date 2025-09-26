@@ -6,7 +6,7 @@
 
 body {
   background-color: white;
-  color: #000000;
+  color: #272725;
 }
 
 /* Navbar */
@@ -30,7 +30,7 @@ body {
   font-weight: bold;
   font-size: 36px;
   text-decoration: none;
-  color: #000000;
+  color: #272725;
   padding-left: 65px;
   letter-spacing: 3px;
   align-items: center;
@@ -38,7 +38,7 @@ body {
 
 .nama-toko {
   text-decoration: none;
-  color: #000000;
+  color: #272725;
 }
 
 .menu {
@@ -66,7 +66,7 @@ ul li {
 
 ul li a {
   display: flex;
-  color: #000000;
+  color: #272725;
   text-align: center;
   text-decoration: none;
 }
@@ -136,4 +136,37 @@ ul li a:hover {
 .container {
   max-width: 1140px;
   margin: auto;
+}
+
+.title {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.title h1 {
+  position: relative;
+  display: inline-block;
+  font-size: 38px;
+  font-weight: 700;
+  color: #272725;
+  margin: 0 0 10px 5%;
+  letter-spacing: 3px;
+}
+
+.title h1::before {
+  position: absolute;
+  content: "";
+  background-color: #50ec12;
+  left: 0;
+  right: 30%;
+  height: 4px;
+  bottom: 0;
+}
+
+.text_center {
+  text-align: center !important;
+}
+
+.about .container {
+  display: flex;
 }
