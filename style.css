@@ -22,26 +22,35 @@ body {
   padding: 20px;
   background-color: white;
   font-weight: bold;
+  padding-top: 25px;
 }
 
 .namatoko {
-  display: block;
+  display: flex;
   font-weight: bold;
-  font-size: 38px;
+  font-size: 36px;
   text-decoration: none;
   color: #000000;
   padding-left: 65px;
+  letter-spacing: 3px;
+  align-items: center;
+}
+
+.nama-toko {
+  text-decoration: none;
+  color: #000000;
 }
 
 .menu {
   display: flex;
   font-size: 20px;
   padding-right: 30px;
+  align-items: center;
 }
 
 ul {
   display: flex;
-  gap: 60px;
+  gap: 82px;
   flex-wrap: nowrap;
   align-content: start;
   align-items: stretch;
