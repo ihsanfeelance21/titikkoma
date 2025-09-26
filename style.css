@@ -169,4 +169,9 @@ ul li a:hover {
 
 .about .container {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  max-width: 1140px;
 }
