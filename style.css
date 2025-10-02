@@ -11,8 +11,8 @@ body {
 
 /* Navbar */
 .navbar {
-  position: sticky;
-  top: 0;
+  position: fixed;
+  z-index: 1000;
   display: flex;
   gap: 20px;
   flex-wrap: nowrap;
@@ -23,6 +23,7 @@ body {
   background-color: white;
   font-weight: bold;
   padding-top: 25px;
+  width: 100%;
 }
 
 .namatoko {
@@ -46,7 +47,7 @@ body {
   background-color: white;
   display: flex;
   font-size: 20px;
-  padding-right: 30px;
+  padding-right: 50px;
   align-items: center;
 }
 
@@ -167,4 +168,19 @@ ul li a:hover {
 
 .text_center {
   text-align: center !important;
+}
+
+/* footer */
+.footer {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.icon {
+  display: flex;
+}
+
+.icon img {
+  width: 60px;
 }
